@@ -1,0 +1,11 @@
+{
+  "name": "Echo",
+  "language": "go",
+  "install": [
+    "go mod download"
+  ],
+  "migrate": [],
+  "start": "PORT=8080 go run .",
+  "url": "http://localhost:8080",
+  "readyPath": "/"
+}
