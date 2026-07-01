@@ -5,7 +5,7 @@
     "go mod download"
   ],
   "migrate": [],
-  "start": "PORT=8080 go run .",
-  "url": "http://localhost:8080",
+  "start": "PORT=${APP_PORT} go run .",
+  "url": "http://localhost:${APP_PORT}",
   "readyPath": "/"
 }
